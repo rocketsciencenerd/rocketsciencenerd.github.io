@@ -1,0 +1,26 @@
+.app {
+    --main-black: #121212;
+    --grey: #1D1D1D;
+    --lt-grey: #2A2A2A;
+    --white: #FFFFFF;
+
+    text-align: center;
+}
+
+.text.high-emphasis {
+    opacity: 100%;
+}
+
+.text.medium-emphasis {
+    opacity: 60%;
+}
+
+.text.low-emphasis {
+    opacity: 38%;
+}
+
+.cryptedtxt:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+
+

@@ -1,0 +1,31 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: var(--main-black);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    background-color: var(--grey);
+}
+
+.nav-links .active {
+    background-color: var(--lt-grey);
+    text-decoration: underline;
+}
